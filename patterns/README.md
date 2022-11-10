@@ -29,3 +29,15 @@ increase a value of a map or set it to 1 if not there
 const map = new Map<string,number>()
 map.set('aKey', ++(map.get('aKey') || 0))
 ```
+
+range
+```
+const range = (start, end) => Array.from(Array(end - start + 1).keys()).map(x => x + start);
+console.log(range(3, 6));
+// [3, 4, 5, 6]
+console.log(range(-2, 2));
+// [-2, -1, 0, 1]
+```
+
+## eternal links
+https://github.com/tajpouria/algorithms-and-data-structures-cheat-sheet
