@@ -1,4 +1,4 @@
-import { Solver } from "./solver"
+import { Solver } from "./solver.js"
 
 const solution = (input: string) => {
     const entries = input.split(",")
