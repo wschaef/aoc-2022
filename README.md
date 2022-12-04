@@ -28,3 +28,9 @@ Time spent: 40 min
 
 Solution was straigt forward. Used lodash for chunk and my new array extension sum().
 Waisted some time on research for getPriority function using ASCII codes, but then took a more simple solution.
+
+## day 04
+
+Time spent 15 min
+
+Challenge was very easy.
