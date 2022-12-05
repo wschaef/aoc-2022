@@ -34,3 +34,18 @@ Waisted some time on research for getPriority function using ASCII codes, but th
 Time spent 15 min
 
 Challenge was very easy.
+
+## day 05
+
+Time spent 1,5 h
+
+* Lost 5 Minutes to get the setup up and running -> prepare upfront
+* Parsing the input 10 minutes
+* Rotate the array by 90 degree 10 min -> 8 of them to implement proper print()
+* Implement algorithm 5 min
+* Fixing a bug which occurs in my input but not in example 20 min
+* Fixing another bug in parsing because of use split("    ") 18 min
+* Solving second part 2 min
+
+The effort today was mainly the parsing of the input. 
+Regex would solve it with less code, but all my investigations in learing it are not sustained.
