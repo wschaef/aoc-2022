@@ -3,9 +3,9 @@ import { Solver } from "./solver.js"
 const solution: any = (input: string) => {
     const entries = input.split("")
 
-    for (let i = 4; i < entries.length; i++) {
-        const [a, b, c, d] = entries.slice(i - 4, i)
-        if (new Set([a, b, c, d]).size == 4) {
+    const Z = 4 //group size
+    for (let i = Z; i < entries.length; i++) {
+        if (new Set(entries.slice(i - Z, i)).size == Z) {
             return i
         }
     }
