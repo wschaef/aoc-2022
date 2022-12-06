@@ -49,3 +49,13 @@ Time spent 1,5 h
 
 The effort today was mainly the parsing of the input. 
 Regex would solve it with less code, but all my investigations in learing it are not sustained.
+
+## day 06
+
+Time spent 16 min 
+
+* 3 minutes to understand the challenge
+* 8 minutes to solve 1
+* 5 minutes to solve 2 -> bug of colision of i as index with i as variable in the array
+
+
