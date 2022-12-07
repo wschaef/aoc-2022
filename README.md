@@ -58,4 +58,18 @@ Time spent 16 min
 * 8 minutes to solve 1
 * 5 minutes to solve 2 -> bug of colision of i as index with i as variable in the array
 
+Adding common utils becomes a mess by copying it into each day. 
+I've invested some hours to switch from local build system to central. The challenge is to make build for a particular day, what requires
+paramentrization für build script. NPM does not support parameters well enough.
+Putting everythin in a run.js script is a workaround having disadvantage of very verbose output.
+
+## day07
+
+Time spent 1,5h
+
+Solution is straigt forward, but there must be a more efficient way of implementing it.
+Recursive algorithms feel more natural to mee for tree based problems. 
+Idea for preparation is to have a tree data structure with common traversing functions.
+
+I have to change my setup having less verbose output.
 
