@@ -73,3 +73,10 @@ Idea for preparation is to have a tree data structure with common traversing fun
 
 I have to change my setup having less verbose output.
 
+## day08
+
+Time spent 1h
+
+I took the first obvious idea: two dimensional array. I've saved time not defining any other more complex strucure and puting it into functions as interface. But I lost a lot of time debugging index errors.
+
+I did not habe time to improve my setup. Idea is to avoid entering day as parameter, but let the script execute file wich was changed.
