@@ -80,3 +80,34 @@ Time spent 1h
 I took the first obvious idea: two dimensional array. I've saved time not defining any other more complex strucure and puting it into functions as interface. But I lost a lot of time debugging index errors.
 
 I did not habe time to improve my setup. Idea is to avoid entering day as parameter, but let the script execute file wich was changed.
+
+## day09
+
+Time spent: a day
+
+My first idea was to use a state machine. It was OK for part 1. For part2 it was a best example, that trying to adopt the solution at all costs is not a good idea.
+My first approach did not fit to second part. After spending about 10h to debug part 2, I've droped the solution approach and used the distance approach being implemented in 30m. Autch!
+
+Things I've learned:
+
+* first days of aoc it is ok just to start. After a week it is more efficient to spent time to design the solution first.
+* Now I have an example how to put arrow functions into a map, but it doesn't improve readability of my code!
+  
+```javascript
+this.headMove = new Map<Dir, (p: Point) => void>([
+    [Dir.U, (head) => head.x = head.x - 1],
+    [Dir.R, (head) => ++head.y],
+    [Dir.D, (head) => ++head.x],
+    [Dir.L, (head) => --head.y],
+])
+```
+## day 10
+
+Time spent 1h
+
+Using arrays and the indexes is pragmatic, but if you have a bug, it is much harder to find it. 
+Day10 killed all my intentions to spend more time on aoc this week.
+
+
+
+
