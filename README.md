@@ -108,6 +108,17 @@ Time spent 1h
 Using arrays and the indexes is pragmatic, but if you have a bug, it is much harder to find it. 
 Day10 killed all my intentions to spend more time on aoc this week.
 
+## day 11
 
+Time spent 2,5h
 
+The first part was easy, but parsing of input took time.
+Second part was hard to understand. I had a feeling that changing from number to BitInt would not solve the problem. It was true. Around 1000 round was OK, but the computation time incread expotentially. 
+
+I had to google for solution ;-(. The idea to look at modulo operation was enought to start thinking on my own. I had luck having all divisors prime numbers, so that modulo of each of them does not change if the worry level is taken modulo of the product of them. 
+
+Thing I've learned:
+
+* how BigInt/bigint is working in Typescript <- is some kind of pain, becaue of difference between BigInt and bigint
+* adding a small optimization with magicNumber just destroyed "segragation of duty" in my code. I need a value (=magicNumber) in a single Monkey class, which I can only get by combination of values of each Monkey objects. -> I've to sleep about that!
 
