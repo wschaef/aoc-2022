@@ -117,8 +117,24 @@ Second part was hard to understand. I had a feeling that changing from number to
 
 I had to google for solution ;-(. The idea to look at modulo operation was enought to start thinking on my own. I had luck having all divisors prime numbers, so that modulo of each of them does not change if the worry level is taken modulo of the product of them. 
 
-Thing I've learned:
+Things I've learned:
 
 * how BigInt/bigint is working in Typescript <- is some kind of pain, becaue of difference between BigInt and bigint
 * adding a small optimization with magicNumber just destroyed "segragation of duty" in my code. I need a value (=magicNumber) in a single Monkey class, which I can only get by combination of values of each Monkey objects. -> I've to sleep about that!
 
+## day 12
+
+Time spent 3h
+
+Today I was able to reuse some code and algorithmus from last year. Unfortunately I've mapped E to elevation('z') + 1. That was the reason, why example was working fine, but my input was slightly to high. 
+
+Second part was straightforward because of efficient algorithmus in part 1. It requires still about 17s to run. I made some optimizations avoiding cloning the board on each step. I reduced the run time from 47s to 17s.
+
+Things I've learned:
+
+* having a good algorithmus in mind is the half of the solution. My implementation was much more straightforward than last year. Having state as own structure makes the interfaces of functions much more clear. 
+* I'm not sure if using tabnine VS code plugin is helping me or not. A lot of suggestions are wrong and fixing them costs more time than saving time on right suggestions. 
+* console.time does not convinced me. Mostly I need a duration between two timestamps and not an absolute timestamp.  
+* I'm using more console.table, since it provides better view for collections.
+
+I'm spending too much time for AOC! Perhaps I should stop this year?
