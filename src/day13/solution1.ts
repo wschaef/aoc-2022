@@ -1,8 +1,5 @@
 import { Solver } from "../common/utils/solver"
 import "../common/utils/arrayExtension"
-import _ from 'lodash'
-
-type Entry = number | []
 
 const solution: any = (input: string) => {
     const entries = input.split("\n\n").map(it => it.split("\n").map(it => JSON.parse(it)))
@@ -11,7 +8,6 @@ const solution: any = (input: string) => {
 }
 
 function compare(left: any, right: any): number {
-    // console.log("input", left, right)
     if (left == undefined) {
         return 1
     } else if (right == undefined) {

@@ -1,8 +1,5 @@
 import { Solver } from "../common/utils/solver"
 import "../common/utils/arrayExtension"
-import _ from 'lodash'
-
-type Entry = number | []
 
 const solution: any = (input: string) => {
     const entries = input.split("\n\n").map(it => it.split("\n").map(it => JSON.parse(it))).flat()
