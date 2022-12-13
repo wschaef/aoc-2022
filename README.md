@@ -138,3 +138,13 @@ Things I've learned:
 * I'm using more console.table, since it provides better view for collections.
 
 I'm spending too much time for AOC! Perhaps I should stop this year?
+
+## day13
+
+Time spent: 1h
+
+The challenge today was really javascript friendly. Parsing input and sorting with compare function is supported nativelly.
+
+Things I've learned:
+
+* a multiply function on an array would make sense
