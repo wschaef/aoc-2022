@@ -148,3 +148,14 @@ The challenge today was really javascript friendly. Parsing input and sorting wi
 Things I've learned:
 
 * a multiply function on an array would make sense
+
+## day14
+
+Time spent: 4h
+
+Algorithmus was clear from beginning. Lost some time on having the right boundary of the cave.
+The most of the time I spent on debuging to solve error saying "RangeError: Maximum call stack size exceeded". My assuption was, that I have a infinite loop in my code, but is was the limitation of javascript!
+
+Things I've learned:
+
+* JavaScript has limited number of recursive calls. I've never thought about what recursion means for the programming language until now. It's less blaming JavaScript, but more recognizing that recursive calls that are too long aren't optimal
