@@ -159,3 +159,14 @@ The most of the time I spent on debuging to solve error saying "RangeError: Maxi
 Things I've learned:
 
 * JavaScript has limited number of recursive calls. I've never thought about what recursion means for the programming language until now. It's less blaming JavaScript, but more recognizing that recursive calls that are too long aren't optimal
+
+## day15
+
+Time spent: 2h
+
+My first idea was not the best. Spending 10m on thinking saved me hours of coding!
+
+Things I've learned:
+
+* I used regExpr to parse the input. It is still not convinient for me.
+
